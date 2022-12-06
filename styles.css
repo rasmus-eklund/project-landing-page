@@ -1,0 +1,146 @@
+
+body {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    font-family: roboto;
+    margin: 0;
+}
+
+header,
+footer,
+article {
+    display: flex;
+    padding: 20px 150px;
+}
+
+header {
+    gap: 20px;
+    padding-top: 20px;
+}
+
+footer {
+    color: #E5E7EB;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 12px;
+}
+
+label {
+    font-size: 10px;
+    text-align: center;
+}
+
+.logo {
+    margin-right: auto;
+    color: #F0FAF8;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.a1 {
+    display: flex;
+    justify-content: space-between;
+}
+.information,
+.duck-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.duck-container {
+    align-items: center;
+}
+
+.information {
+    color: #F9FAF8;
+}
+
+.information h1 {
+    font-size: 20px;
+    margin: 0;
+}
+.information p {
+    font-size: 8px;
+    margin: 10px 0;
+    width: 200px;
+}
+
+button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+}
+
+.a2 {
+    flex-direction: column;
+    background-color: rgb(170, 173, 197);
+    gap: 10px;
+}
+
+.a2 h1 {
+    text-align: center;
+    margin: 0;
+}
+.a2-img-container {
+    display: flex;
+    justify-content: space-around;
+}
+.a2-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.a3 {
+    background-color: rgb(77, 79, 102);
+    flex-direction: column;
+}
+
+.a3 h1 {
+    font-size: 20px;
+    margin: 0.5em 0;
+}
+
+.a3 p {
+    font-style: italic;
+    margin: 0.5em 0;
+}
+
+.a4 {
+    background-color: rgb(170, 173, 197);
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(87, 87, 194);
+    padding: 10px 20px;
+    color: #E5E7EB;
+    flex: 1;
+    justify-content: space-between;
+}
+
+
+.box p {
+    margin: 0;
+    font-size: 8px;
+}
+
+.box p:first-child {
+    font-size: 15px;
+    font-weight: bold;
+}
